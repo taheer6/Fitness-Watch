@@ -1,4 +1,4 @@
-# PulsePath Watch
+# Fitness Watch
 
 ## Overview
 This project is a custom wearable watch focused on straight-to-the-point health and navigation data. The watch is being built to show heart rate, time, date, battery, steps, distance travelled, compass heading, and GPS information with a minimalistic UI.
