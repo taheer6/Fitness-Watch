@@ -14,6 +14,7 @@ One of the first problems was the op amp choice. I originally used an `LM358`, b
 
 <img width="1002" height="428" alt="image" src="https://github.com/user-attachments/assets/200e9f8f-be78-4ff4-87c0-5d91f3404b34" />
 
+
 The main issue still left in the pulse sensor is light sensitivity. The `BPW34` is very sensitive and has a relatively large active area, which helps it detect light well but also makes it easier for ambient light and movement to introduce ripple into the signal. The next fix here is better physical shielding around the sensor while also using pulsed LED sampling with ambient light subtraction, where the photodiode is sampled once with the LED off and once with it on, then the two readings are subtracted to remove outside light and isolate blood flow changes.
 
 ## Current Build
